@@ -1,4 +1,63 @@
 body {
     color: aliceblue;
-    background-color: rgb(15, 145, 123);
+    background-color: rgb(0, 0, 0);
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(97, 0, 148);
+    position:fixed;
+    width: 100%;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.container {
+    padding: 35px;
+    margin: 0, auto;
+    padding: 50px;
+    min-height: 80vh;
+}
+
+.container h2 {
+    color: aliceblue;
+    padding: 55px;
+    text-align: center;
+    z-index: 2;
+}
+
+.container img {
+    padding: 25px;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+}
+
+.container p {
+    text-align: center;
+}
+
+footer {
+    color: aliceblue;
 }
