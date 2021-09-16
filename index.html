@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Splash Page</title>
+    <title>Raven</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Hark the raven</h1>
-        <nav>
+        <nav class="shift-right">
             <ul>
                 <li>
                     <a href="#information" alt="information section link">About Ravens</a>
@@ -24,29 +24,31 @@
             </ul>
         </nav>
     </header>
-    <article class="container" id="information">
-        <h2>Amazing creatures!</h2>
-        <img src="https://api.time.com/wp-content/uploads/2017/06/raven.jpg?w=800&quality=85" alt="Raven picture">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam aliquid harum commodi alias voluptas corrupti at minima impedit veniam ratione earum, iste a officia? Explicabo, perferendis molestiae! Nam, libero?</p>
-    </article>
-    <article>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-             <li>
-               <label for="name">Name:</label>
-               <input type="text" id="name" name="user_name">
-             </li>
-             <li>
-               <label for="mail">E-mail:</label>
-               <input type="email" id="mail" name="user_email">
-             </li>
-             <li>
-               <label for="msg">Message:</label>
-               <textarea id="msg" name="user_message"></textarea>
-             </li>
-            </ul>
+    <main>
+        <h2 class="centered-info">Birds of Awesomeness</h2>
+        <figure>
+            <img src="https://api.time.com/wp-content/uploads/2017/06/raven.jpg?w=800&quality=85" alt="Raven picture">
+            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam aliquid harum commodi alias voluptas corrupti at minima impedit veniam ratione earum, iste a officia? Explicabo, perferendis molestiae! Nam, libero?v</figcaption>
+        </figure>
+        <section id="contact">
+            <h2 class="centered-info">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="shift-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label class="shift-right" for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                </ul>
+                <div class="centered-info">
+                    <button type="submit">SEND</button>
+                  </div>
            </form>
-    </article>
+        </section>
+    </main>
     <footer>
         <a href="https://github.com/Willowsmith/mini-project-landing-page" alt="github address">See my github!</a>
     </footer>
